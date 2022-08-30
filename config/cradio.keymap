@@ -87,7 +87,7 @@
       bindings = <
         &kp GRAVE   &trans 	    &trans       &trans       &trans 	    &trans      &kp MINUS     &kp KP_EQUAL &kp LBKT   &kp RBKT
         &kp TAB     &trans      &trans       &trans       &trans		  &kp LEFT    &kp DOWN      &kp UP       &kp RIGHT  &kp BKSP
-        &kp TAB     &trans      &trans       &trans       &trans		  &trans      &trans        &trans       &trans     &kp ENTER
+        &trans      &trans      &trans       &trans       &trans		  &trans      &trans        &trans       &trans     &kp ENTER
         &kp LGUI &lt ADJUST SPC                    &lt ADJUST SPC &kp RALT
         >;
     };
