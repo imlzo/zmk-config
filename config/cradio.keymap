@@ -54,6 +54,12 @@
       bindings = <&kp BACKSLASH>;
     };
 
+    combo_bootloader {
+      timeout-ms = <50>;
+      key-positions = <0 10 20>; // left column
+      bindings = <&bootloader>;
+    };
+
   };
 
   keymap {
